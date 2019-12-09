@@ -23,9 +23,13 @@ Your Information
   <li>Address:<input type="Address:"></li>
   <li>Telephone Number<input type="Telephone Number:"></li>
   <li>Email:<input type="Email:"></li>
-  <li>Delivery instructions:<input type="Delivery instructions:"></li>
-</ul>
+  <li>Delivery instructions:</li>
+  <label>
+ <textarea name="Delivery instructions:" placeholder="no more than 400 characters long" rows="4" cols="60"
+maxlength="400"></textarea>
+</label>
 
+</ul>
 
 <h2>Design Your Dream Pizza:</h2>
 
@@ -33,28 +37,39 @@ Your Information
 
 <p>Crust <em>(Choose one)</em>:</p>
 <ul>
- <input type="checkbox" name="Crust" Value="Classic white">Classic White
+ <input type="radio" name="Crust" Value="Classic white">Classic White
  <br>
-  <input type="checkbox" name="Crust" Value="Multigrain">Multigrain
+  <input type="radio" name="Crust" Value="Multigrain">Multigrain
   <br>
-  <input type="checkbox" name="Crust" Value="Cheese-Stuffed crust">Cheese-stuffed crust
+  <input type="radio" name="Crust" Value="Cheese-Stuffed crust">Cheese-stuffed crust
   <br>
-   <input type="checkbox" name="Crust" Value="Gluten-free">Gluten-free
+   <input type="radio" name="Crust" Value="Gluten-free">Gluten-free
 </ul>
 
 <p>Toppings <em>(Choose as many as you want)</em>:</p>
 <ul>
-  <li>Red sauce</li>
-  <li>White sauce</li>
-  <li>Mozzarella Cheese</li>
-  <li>Pepperoni</li>
-  <li>Mushrooms</li>
-  <li>Peppers</li>
-  <li>Anchovies</li>
+  <li><input type="checkbox" name="Crust" Value="Red Sauce">Red sauce</li>
+  <li><input type="checkbox" name="Crust" Value="White sauce">White sauce</li>
+  <li><input type="checkbox" name="Crust" Value="Mozzarella Cheese">Mozzarella Cheese</li>
+  <li><input type="checkbox" name="Crust" Value="Pepperoni">Pepperoni</li>
+  <li><input type="checkbox" name="Crust" Value="Mushrooms">Mushrooms</li>
+  <li><input type="checkbox" name="Crust" Value="Peppers">Peppers</li>
+  <li><input type="checkbox" name="Crust" Value="Anchovies">Anchovies</li>
 </ul>
 
 <p>Number</p>
-<p>How many pizzas:<p>
 
+<p>How many pizzas: <input type="text" list="how many" name="How many pizzas">
+<datalist id="how many">
+ <option value="1">
+   <option value="2"></option>
+    <option value="3"></option>
+     <option value="4"></option>
+      <option value="5"></option>
+       <option value="6"></option>
+</datalist>
+<br>
+<input type="submit">
+<input type="reset">
 </body>
 </html>
