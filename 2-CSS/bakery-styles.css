@@ -55,6 +55,7 @@ p.more {
   font-family: verdana, sans-serif;
   text-transform: uppercase;
   font-size: .8em;
+  border: double 4px #EADDC4;
 }
 
 /* aside "hours" styles */
