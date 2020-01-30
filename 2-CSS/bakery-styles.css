@@ -109,9 +109,13 @@ float: left;
 margin: 0 1em 1em 0;
 }
 
-img[src*="muffin"]{
+img[src*="muffin"] {
   margin-left: 50px;
 shape-outside: circle(110px);
   -webkit-shape-outside: circle(110px);
 }
 
+img[src*="bread"] {
+  webkit-shape-outside: ellipse(130px 95px at 50% 50%);
+  shape-outside: ellipse(130px 95px at 50% 50%);
+}
