@@ -141,3 +141,8 @@ img[src*="bread"] {
   webkit-shape-outside: ellipse(130px 95px at 50% 50%);
   shape-outside: ellipse(130px 95px at 50% 50%);
 }
+
+#award {
+position: absolute;
+top: 30px;
+left: 50px; }
