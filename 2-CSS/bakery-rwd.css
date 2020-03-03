@@ -155,7 +155,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px){
 	header p{
 		display: block;
 		margin-top: -1,5em;
@@ -179,3 +179,32 @@ main{
  	margin: 2.5%;
    }
 }
+
+@media screen and (min-width: 940px){
+	#container{
+		display: grid;
+		grid-template-rows: auto min-height 5em;
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
