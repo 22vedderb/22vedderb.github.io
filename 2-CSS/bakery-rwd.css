@@ -194,8 +194,12 @@ main{
 		position: relative;
 	}
 	
-	
-	
+	header{
+		grid-area: banner;
+	}
+	main{
+		grid-area: main;
+	}
 	
 	
 	
