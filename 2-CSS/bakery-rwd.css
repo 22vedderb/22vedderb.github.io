@@ -136,3 +136,21 @@ footer {
 .linelength {
 	background: yellow;
 }
+
+
+@media screen and (min-width: 400px) {
+	
+	nav ul li{
+		flex: none;
+	}
+	nav ul{
+		justify-content: center;
+	}
+}
+
+@media screen and (min-width: 480px){
+  main img{
+  	float: left;
+  	margin: 0 1em 1em 0;
+  }
+}
