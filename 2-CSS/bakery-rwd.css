@@ -154,3 +154,28 @@ footer {
   	margin: 0 1em 1em 0;
   }
 }
+
+@media screen and (min-width: 600px) {
+	header p{
+		display: block;
+		margin-top: -1,5em;
+		font-family: georgia, serif;
+		font-style: italic;
+		font-size: 1.2em;
+	}
+	
+	main, h2, h3{
+		font-family: 'Sint Ultra Expanded', georgia, serif;
+	}
+	h2, h3{
+		font-weight: bold;
+	}
+	
+main{
+	line-height: 1.8em;
+	padding: 1em;
+	border: double 4px #EADDC4;
+	border-radius: 25px;
+ 	margin: 2.5%;
+   }
+}
