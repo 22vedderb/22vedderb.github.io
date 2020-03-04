@@ -201,20 +201,22 @@ main{
 		grid-area: main;
 	}
 	
+	aside{
+		grid-area: hours;
+		background: url(images/scallop.png) repeat-y left top;
+		background-color: #f6f3ed;
+		padding: 1em;
+		padding-left: 45px;
+	}
+	footer{
+		grid-area: footer;
+	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	#award{
+		position: absolute;
+		top: 30px;
+		left: 50px;
+	}
 }
 
 
